@@ -11,17 +11,20 @@ An AI-powered web app that scrapes job descriptions from any career page, extrac
 ---
 
 ## 📂 Project Structure
-│
-├── App/
-│ ├── main.py # Streamlit app entry point
-│ ├── chains.py # Handles LLM prompts (job extraction + email writing)
-│ ├── portfolio.py # Loads and queries portfolio links
-│ ├── utils.py # Cleans scraped HTML text
-│
-├── requirements.txt # Python dependencies
-├── .gitignore # Git ignore rules
-├── .env # API keys (not pushed to GitHub)
-├── README.md # Project docs
+  ```
+   Cold Email Generator/
+   │
+   ├── App/
+   │   ├── main.py         # Streamlit app entry point
+   │   ├── chains.py       # Handles LLM prompts (job extraction + email writing)
+   │   ├── portfolio.py    # Loads and queries portfolio links
+   │   ├── utils.py        # Cleans scraped HTML text
+   │
+   ├── requirements.txt    # Python dependencies
+   ├── .gitignore          # Git ignore rules
+   ├── .env                # API keys (not pushed to GitHub)
+   ├── README.md           # Project docs
+   ```
 
 
 ---
